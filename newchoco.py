@@ -1,0 +1,12 @@
+n=2
+c=10
+m=10
+bar=n/c
+wrap=0
+total=bar
+while(bar>0):
+    wrap+=bar
+    bar=wrap/m
+    total+=bar
+    wrap-=m*bar
+print(total)
